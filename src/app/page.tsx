@@ -11,8 +11,8 @@ export default function Home() {
   return (
       <>
         <Container>
-          <Content className="grid-content h-full md:overflow-auto"/>
-          <FloatingDock desktopClassName="grid-dock" mobileClassName="grid-dock-mobile mr-1" items={items}/>
+          <Content className="grid-content h-full overflow-x-hidden md:overflow-auto"/>
+          <FloatingDock desktopClassName="grid-dock" mobileClassName="fixed bottom-10 right-10" items={items}/>
         </Container>
       </>
 
