@@ -14,7 +14,7 @@ interface HomeSectionProps {
 export const HomeSection = ({className = ""} : HomeSectionProps) => {
     return(
         <>
-            <section className="flex justify-center items-center flex-col p-8">
+            <section className="flex justify-center w-full flex-col p-8">
                 <div className="md:flex">
 
                     <div>
