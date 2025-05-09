@@ -8,7 +8,7 @@ interface ContainerProps  {
 export const Container = ({ children } : ContainerProps) => {
     return(
         <>
-            <div className="container h-screen p-4 m-auto grid-layout">
+            <div className="container flex flex-col h-screen max-w-6xl m-auto p-9">
                 {children}
             </div>
         </>
