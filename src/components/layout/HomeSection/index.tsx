@@ -50,7 +50,7 @@ export const HomeSection = ({ className = "" }: HomeSectionProps) => {
                     <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">Hi, I'm Enzo!</h1>
                     <TypewriterEffectSmooth words={words} className="mt-2 mb-0" />
                     <DinamicText
-                        className="m-0"
+                        className="m-0 "
                         words="Turning complexity into simple, elegant solutions — through code."
                         duration={2.8}
                         filter={true}

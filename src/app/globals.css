@@ -20,44 +20,11 @@
 
 body {
   background: var(--background);
-  color: var(--foreground);
+  color: theme(--color-zinc-300);
   font-family: var(--font-jetbrains-mono);  
-
 }
 
 
-.grid-layout {
-  display: grid;
-  grid-template-areas: 
-  "header header header "
-  "content content content"
-  "dock dock dock" 
-  "footer footer footer";
-
-  grid-template-rows: 30px 1fr 70px 10px;
+h1, h2, h3, h4, h5 , h6, button{
+  color: var(--foreground);
 }
-
-
-.grid-dock {
-  grid-area: dock;
-  grid-column-start: 2;
-  grid-column-end: 2;
-  place-self: end;
-
-}
-
-
-.grid-dock-mobile {
-  grid-area: dock;
-  grid-column-start: 3;
-  grid-column-end: 4;
-  place-self: end;
-
-}
-
-.grid-content {
-  grid-area: content;
-  grid-column-start: 1;
-  grid-column-end: 4;
-}
-

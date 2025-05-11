@@ -9,6 +9,7 @@ const jetBrains = JetBrains_Mono({
 })
 
 
+
 export const metadata: Metadata = {
   title: "My portfolio",
   description: "My personal portfolio with next.js",

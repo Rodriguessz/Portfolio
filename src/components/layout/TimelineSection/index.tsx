@@ -1,21 +1,32 @@
 import { Timeline } from "@/components/ui/Timeline"
-import { data } from "./helper"
+import { tabs } from "./helper"
+import { Tabs } from "@/components/ui/Tabs"
 
 interface TimelineSectionProps {
     className?: string,
 }
 
 
-export const TimelineSection = ({className = ""} : TimelineSectionProps) => {
-    return(
+export const TimelineSection = ({ className = "" }: TimelineSectionProps) => {
+    return (
         <>
-            <section className="flex justify-between flex-col gap-4">
-                <h2 className="text-3xl">Timeline</h2>
-                <Timeline data={data}/>
+            <section className="flex justify-between flex-col gap-10 md:mt-20">
+                <div className="flex flex-col gap-1 items-center">
+                    <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
+                        Education & Experience
+                    </h2>
+                    <p className="text-sm text-zinc-500">
+                        My journey
+                    </p>
+                </div>
+
+                <div>
+                    <Tabs tabs={tabs} />
+                </div>
             </section>
         </>
     )
 
 
-    
+
 }

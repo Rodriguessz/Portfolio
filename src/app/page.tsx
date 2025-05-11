@@ -16,7 +16,7 @@ export default function Home() {
           <TimelineSection />
 
 
-          <FloatingDock desktopClassName="fixed bottom-2 left-1/2 -translate-x-1/2" mobileClassName="fixed " items={items}/>
+          <FloatingDock desktopClassName="fixed bottom-2 left-1/2 -translate-x-1/2" mobileClassName="fixed bottom-3 right-3 " items={items}/>
         </Container>
       </>
 
