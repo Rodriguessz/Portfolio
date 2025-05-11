@@ -2,6 +2,8 @@ import { Timeline } from "@/components/ui/Timeline"
 import { tabs } from "./helper"
 import { Tabs } from "@/components/ui/Tabs"
 
+import { motion } from "motion/react"
+
 interface TimelineSectionProps {
     className?: string,
 }
@@ -10,7 +12,7 @@ interface TimelineSectionProps {
 export const TimelineSection = ({ className = "" }: TimelineSectionProps) => {
     return (
         <>
-            <section className="flex justify-between flex-col gap-10 md:mt-20">
+            <section id="timeline" className="flex justify-between flex-col gap-10 md:mt-18 pt-8">
                 <div className="flex flex-col gap-1 items-center">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
                         Education & Experience

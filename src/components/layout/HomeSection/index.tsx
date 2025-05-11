@@ -15,7 +15,7 @@ interface HomeSectionProps {
 
 export const HomeSection = ({ className = "" }: HomeSectionProps) => {
     return (
-        <section className={`flex flex-col md:flex-row md:gap-5 md:items-center ${className}`}>
+        <section id="home" className={`flex flex-col md:flex-row md:gap-5 md:items-center ${className}`}>
             
             {/* Imagem animada */}
             <motion.div

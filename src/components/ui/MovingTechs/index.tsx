@@ -82,7 +82,7 @@ export const MovingTechs = ({
         className={cn(
           "flex w-max min-w-full shrink-0 flex-nowrap gap-3 py-4",
           start && "animate-scroll",
-          pauseOnHover && "hover:[animation-play-state:paused]",
+          pauseOnHover && "hover:[animation-play-state:paused] cursor-pointer",
         )}
       >
         {items.map((item, idx) => (

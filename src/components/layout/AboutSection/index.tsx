@@ -8,7 +8,7 @@ interface AboutSectionProps {
 
 export const AboutSection = ({ className = "" }: AboutSectionProps) => {
     return (
-        <section className={`flex flex-col items-center ${className}`}>
+        <section id="about" className={`flex flex-col items-center pt-8 ${className}`}>
 
             {/* Container de conteúdo com imagem + texto */}
             <div className="flex flex-col gap-5 md:flex-row md:gap-5 md:items-center w-full max-w-6xl">
