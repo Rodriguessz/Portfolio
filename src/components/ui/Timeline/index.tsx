@@ -13,7 +13,7 @@ interface TimelineEntry {
 
 }
 
-export const Timeline = ({ data, scrollContainerRef }: { data: TimelineEntry[],   scrollContainerRef: React.RefObject<HTMLElement | null>; }) => {
+export const Timeline = ({ data,  }: { data: TimelineEntry[] }) => {
   const ref = useRef<HTMLDivElement>(null);
   const containerRef = useRef<HTMLDivElement>(null);
   const [height, setHeight] = useState(0);
@@ -26,7 +26,7 @@ export const Timeline = ({ data, scrollContainerRef }: { data: TimelineEntry[], 
   }, [ref]);
 
   const { scrollYProgress } = useScroll({
-    target: scrollContainerRef,
+    target: containerRef,
     offset: ["start 50%", "end 100%"],
   });
 
