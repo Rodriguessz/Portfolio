@@ -34,7 +34,7 @@ Para clonar e executar este projeto, você precisará do [Git](https://git-scm.c
 
 ```bash
 # Clone o repositório
-git clone https://github.com/seu-usuario/portfolio-pessoal.git
+git clone https://github.com/Rodriguessz/Portfolio.git
 
 # Entre no diretório do projeto
 cd portfolio-pessoal
