@@ -1,15 +1,17 @@
 "use client";
 
-import { IconArrowLeft, IconArrowRight } from "@tabler/icons-react";
+import { IconArrowLeft, IconArrowRight, IconBrandGithub } from "@tabler/icons-react";
 import { motion, AnimatePresence } from "motion/react";
 
 import { useEffect, useState } from "react";
+import { Button } from "../Button";
 
 type Project = {
   quote: string;
   name: string;
   designation: string;
   src: string;
+  href: string;
 };
 export const AnimatedProjects = ({
   projects,
@@ -143,6 +145,12 @@ export const AnimatedProjects = ({
                 </motion.span>
               ))}
             </motion.p>
+            <a href={projects[active].href} className="list-none" target="_blank">
+              <Button className="mt-6 mb-6 border-white border text-sm font-bold">
+                <IconBrandGithub/>
+              </Button>
+            </a>
+            
           </motion.div>
           <div className="flex gap-4 pt-12 md:pt-0">
             <button

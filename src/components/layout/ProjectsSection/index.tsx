@@ -18,7 +18,7 @@ export const ProjectsSection = () => {
                 </div>
 
                 <div>
-                    <AnimatedProjects projects={projects} autoplay={true}/>
+                    <AnimatedProjects projects={projects}/>
                 </div>
             </section>
         </>
