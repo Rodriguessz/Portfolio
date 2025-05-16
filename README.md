@@ -7,7 +7,7 @@ Este é o repositório do meu portfólio pessoal, atualmente em desenvolvimento,
 ## Protótipo
 
 
-![Captura de Tela](link-da-imagem-exemplo.png)
+![Captura de Tela](preview.png)
 
 Você pode acessar o protótipo [aqui](link-do-prototipo-online).
 
