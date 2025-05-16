@@ -17,10 +17,10 @@ export const AboutSection = ({ className = "" }: AboutSectionProps) => {
 
                     <div className="flex flex-col gap-1">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-                            About Me
+                            Sobre mim
                         </h2>
                         <p className="text-sm text-zinc-500">
-                            My introduction
+                           Minha introdução
                         </p>
                     </div>
 

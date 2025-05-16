@@ -147,7 +147,9 @@ export const AnimatedProjects = ({
             </motion.p>
             <a href={projects[active].href} className="list-none" target="_blank">
               <Button className="mt-6 mb-6 border-white border text-sm font-bold">
-                <IconBrandGithub/>
+              <IconBrandGithub/>
+
+                Repositório
               </Button>
             </a>
             

@@ -15,10 +15,10 @@ export const TimelineSection = ({ className = "" }: TimelineSectionProps) => {
             <section id="timeline" className="flex justify-between flex-col gap-10 md:mt-18 pt-8">
                 <div className="flex flex-col gap-1 items-center">
                     <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-                        Education & Experience
+                        Educação & Experiência
                     </h2>
                     <p className="text-sm text-zinc-500">
-                        My journey
+                        Minha jornada
                     </p>
                 </div>
 

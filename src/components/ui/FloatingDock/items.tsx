@@ -1,9 +1,11 @@
 import {
     IconBrandGithub,
+    IconBrandLinkedin,
     IconHome,
     IconUser,
     IconTimeline,
     IconCode,
+    IconDeviceDesktop
   } from "@tabler/icons-react";
 
 
@@ -18,7 +20,7 @@ export const items = [
       },
 
       {
-        title: "About me",
+        title: "Sobre mim",
         icon: (
           <IconUser className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
@@ -26,7 +28,7 @@ export const items = [
       },
    
       {
-        title: "Education & Experience",
+        title: "Educação & Experiência",
         icon: (
           <IconTimeline className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
@@ -40,6 +42,35 @@ export const items = [
         ),
         href: "#tech",
       },
+
+      {
+        title: "Projetos",
+        icon: (
+          <IconDeviceDesktop className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        ),
+        href: "#projects",
+      },
+
+      {
+        title: "Github",
+        icon: (
+          <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        ),
+        href: "https://github.com/Rodriguessz/",
+        target: "_blank"
+      },
+
+      {
+        title: "LinkedIn",
+        icon: (
+          <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        ),
+        href: "https://www.linkedin.com/in/enzorodrigues03/",
+        target: "_blank"
+      },
+
+
       
+
 
 ]
