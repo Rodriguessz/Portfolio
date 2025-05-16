@@ -6,7 +6,6 @@ Este é o repositório do meu portfólio pessoal, atualmente em desenvolvimento,
 
 ## Protótipo
 
-Insira uma captura de tela do seu portfólio ou um link para um protótipo online:
 
 ![Captura de Tela](link-da-imagem-exemplo.png)
 
