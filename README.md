@@ -36,9 +36,10 @@ Para clonar e executar este projeto, você precisará do [Git](https://git-scm.c
 git clone https://github.com/Rodriguessz/Portfolio.git
 
 # Entre no diretório do projeto
-cd portfolio-pessoal
+cd portfolio
 
 # Instale as dependências
 npm install 
-# ou
-yarn install
+
+# Rode o projeto
+npm run dev
