@@ -1,10 +1,11 @@
 "use client";
 
-import { IconArrowLeft, IconArrowRight, IconBrandGithub } from "@tabler/icons-react";
+import { IconArrowLeft, IconArrowRight, IconBrandGithub, IconExternalLink} from "@tabler/icons-react";
 import { motion, AnimatePresence } from "motion/react";
 
 import { useEffect, useState } from "react";
 import { Button } from "../Button";
+import { LinkPreview } from "../LinkPreview";
 
 type Project = {
   quote: string;
@@ -120,7 +121,7 @@ export const AnimatedProjects = ({
             <p className="text-sm text-gray-500 dark:text-neutral-500">
               {projects[active].designation}
             </p>
-            <motion.p className="mt-8 text-lg text-gray-500 dark:text-neutral-300">
+            <motion.p className="mt-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
               {projects[active].quote.split(" ").map((word, index) => (
                 <motion.span
                   key={index}
@@ -145,13 +146,11 @@ export const AnimatedProjects = ({
                 </motion.span>
               ))}
             </motion.p>
-            <a href={projects[active].href} className="list-none" target="_blank">
-              <Button className="mt-6 mb-6 border-white border text-sm font-bold">
-              <IconBrandGithub/>
-
-                Repositório
-              </Button>
-            </a>
+          
+            <LinkPreview className="font-bold flex mt-4 mb-4 gap-1 items-center" url={projects[active].href}>
+                Github
+                <IconExternalLink size={18}/>  
+              </LinkPreview>
             
           </motion.div>
           <div className="flex gap-4 pt-12 md:pt-0">

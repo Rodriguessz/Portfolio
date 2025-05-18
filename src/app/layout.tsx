@@ -1,5 +1,5 @@
 import type { Metadata } from "next";
-import { JetBrains_Mono } from "next/font/google";
+import { JetBrains_Mono, Inter } from "next/font/google";
 
 import "./globals.css";
 
@@ -8,10 +8,14 @@ const jetBrains = JetBrains_Mono({
   variable: "--font-jetbrains-mono"
 })
 
+const inter = Inter({
+  variable: "--font-inter"
+})
+
 
 
 export const metadata: Metadata = {
-  title: "My portfolio",
+  title: "Enzo Rodrigues",
   description: "My personal portfolio with next.js",
 };
 

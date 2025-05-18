@@ -26,12 +26,16 @@ export const AboutSection = ({ className = "" }: AboutSectionProps) => {
 
 
 
-                    <p className="text-base leading-relaxed text-zinc-300 text-justify" >
-                        I'm a passionate developer who believes in clean code, creative problem-solving,
-                        and delivering delightful user experiences. With a strong foundation in both
-                        front-end and back-end technologies, I strive to build solutions that are not only
-                        functional, but also beautiful and intuitive.
+                    <p className="leading-relaxed text-zinc-300 text-justify tracking-wide text-sm sm:text-base md:text-1xl" >
+                    Meu nome é Enzo e sou estudante de Engenharia de Software na FIAP, atualmente no quarto semestre. Atuo como estagiário na área de Verificação e Validação de Software na Alstom, multinacional referência em sinalização ferroviária, contribuindo para garantir a qualidade e segurança de sistemas embarcados utilizados em linhas de metrô no Brasil e no mundo.
                     </p>
+
+                    <p className="leading-relaxed text-zinc-300 text-justify tracking-wide text-sm sm:text-base md:text-1xl" >
+                    
+                    Tenho interesse em desenvolver soluções escaláveis e bem estruturadas, com foco em APIs RESTful, arquitetura em camadas e boas práticas de engenharia de software. Estou em constante evolução técnica, aprimorando meus conhecimentos em Java com Spring Boot, bancos de dados relacionais (PostgreSQL, Oracle), controle de versão com Git, conteinerização com Docker, além de explorar tecnologias emergentes no ecossistema de desenvolvimento.
+                    </p>
+
+                   
                 </div>
 
                 {/* Imagem animada */}

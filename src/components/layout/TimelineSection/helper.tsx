@@ -14,7 +14,7 @@ export const experience = [
           <h4 className="text-base md:text-2xl text-center">2025 - Current</h4>
 
         </div>
-        <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-zinc-300">
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
           -
         </p>
       </div>
@@ -32,11 +32,11 @@ export const experience = [
         </div>
 
         <div className="flex flex-col g-1">
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-zinc-300">
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
             Developed custom tools and new features using PHP, Laravel, and MySQL, resulting in faster and more reliable processes.
           </p>
 
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-zinc-300">
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
             - Implemented a new interface layout, applying UI and UX concepts, using JavaScript, React, and Styled-components, significantly improving the end-user experience.
           </p>
         </div>
@@ -69,11 +69,11 @@ export const experience = [
         </div>
 
         <div className="flex flex-col g-1">
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-zinc-300">
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
             - Collaborated on supporting and customizing the company's internal platform to align with business needs using HTML, CSS ,Javascript and PHP.
           </p>
 
-          <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-zinc-300">
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
             - Utilized Google Tag Manager (GTM) to implement and configure scripts, tags, and events on websites, enhancing data analysis and optimizing online strategies.
           </p>
         </div>
@@ -95,11 +95,11 @@ export const education = [
         </div>
 
         <div className="flex flex-col g-1">
-          <p className="mb-6 text-xs font-normal text-neutral-800 md:text-sm dark:text-zinc-300">
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
             Rockeatseat
           </p>
 
-          <p className="mb-6 text-xs font-normal text-neutral-800 md:text-sm dark:text-zinc-300">
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
             - HTML5, CSS3, JavaScript, Nodejs, Express.js, Knex.js, ReactJs, git, SQL, figma. 
           </p>
         </div>
@@ -131,7 +131,7 @@ export const education = [
           <h4 className="text-base md:text-2xl text-center">2023 - 2027</h4>
 
         </div>
-        <p className="mb-8 text-xs font-normal text-neutral-800 md:text-sm dark:text-zinc-300">
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
           FIAP - Faculdade de Informática e Admnistração Paulista
         </p>
       </div>
@@ -149,11 +149,11 @@ export const education = [
         </div>
 
         <div className="flex flex-col g-1">
-          <p className="mb-6 text-xs font-normal text-neutral-800 md:text-sm dark:text-zinc-300">
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
             Senai - Ricardo Lerner
           </p>
 
-          <p className="mb-6 text-xs font-normal text-neutral-800 md:text-sm dark:text-zinc-300">
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
             - HTML5, CSS3, JavaScript, Nodejs, Java, Vraptor, Springboot, git, MySQL, Oracle, Selenium, Networks.
           </p>
         </div>
