@@ -5,14 +5,21 @@ import { ProjectsSection } from "@/components/layout/ProjectsSection";
 import { TechSection } from "@/components/layout/TechSection";
 import { TimelineSection } from "@/components/layout/TimelineSection";
 import { FloatingDock } from "@/components/ui/FloatingDock";
-import { items } from "@/components/ui/FloatingDock/items";
+import { itemsPT, itemsEN} from "@/components/ui/FloatingDock/items";
+import { LanguageSwitcher } from "@/components/ui/LanguageSwitcher";
+import { useLocale } from "next-intl";
 
 
 export default function Home() {
-
+  const locale = useLocale()
+  let items = itemsPT
+  if(locale == "en") items = itemsEN 
+  
   return (
       <>
         <Container>
+          <LanguageSwitcher />
+          
           <HomeSection />
           <AboutSection />
           <TimelineSection />

@@ -4,16 +4,52 @@ import { TypewriterEffectSmooth } from "@/components/ui/TypeWriter"
 import { DinamicText } from "@/components/ui/DinamicText"
 import { Button } from "@/components/ui/Button"
 
-import { words } from "./helper"
-
 import { IconMail, IconDownload } from "@tabler/icons-react"
 import { easeInOut, motion } from "motion/react"
+
+import { useLocale, useTranslations } from "next-intl"
+
 
 interface HomeSectionProps {
     className?: string,
 }
 
 export const HomeSection = ({ className = "" }: HomeSectionProps) => {
+    const locale = useLocale()
+    const t = useTranslations('Home');
+    
+    const dinamicWords = {
+        "pt": [
+            {
+                text: "Desenvolvedor",
+              },
+              {
+                text: "Web",
+              },
+              {
+                text: "Fullstack",
+                className: "text-violet-500 dark:text-blue-500",
+          
+              },
+        ],
+
+        "en": [
+            {
+                text: "Fullstack",
+              },
+              {
+                text: "Web",
+              },
+              {
+                text: "Developer",
+                className: "text-violet-500 dark:text-blue-500",
+          
+              },
+        ]
+    }
+    let words = dinamicWords["pt"];
+    if(locale == "en") words = dinamicWords["en"];
+
     return (
         <section id="home" className={`flex flex-col md:flex-row md:gap-5 md:items-center ${className}`}>
             
@@ -47,11 +83,11 @@ export const HomeSection = ({ className = "" }: HomeSectionProps) => {
             {/* Texto e Ações */}
             <div className="w-full md:w-[60%] flex flex-col justify-center md:max-w-[600px]">
                 <div id="introduction">
-                    <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">Olá, eu sou o Enzo!</h1>
+                    <h1 className="text-2xl sm:text-3xl md:text-4xl font-bold">{t('title')}</h1>
                     <TypewriterEffectSmooth words={words} className="mt-2 mb-0" />
                     <DinamicText
                         className="m-0"
-                        words="Transformando complexidade em soluções simples e elegantes, através de código."
+                        words={t("slogan")}
                         duration={2.8}
                         filter={true}
                     />
@@ -60,12 +96,12 @@ export const HomeSection = ({ className = "" }: HomeSectionProps) => {
                 <div id="actions" className="flex gap-6 mt-8">
                     <Button className="border-white border text-sm font-bold">
                         <IconMail className="text-xs font-light" />
-                        <p>Entre em contato</p>
+                        <p>{t("contactButton")}</p>
                     </Button>
 
-                    <Button className="border-white border">
+                    <Button className="border-white border text-sm font-bold">
                         <IconDownload size={22} />
-                        Baixar CV
+                        {t("cvButton")}
                     </Button>
                 </div>
             </div>

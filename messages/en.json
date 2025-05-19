@@ -1,0 +1,30 @@
+{
+    "Home": {
+      "title": "Hi, I'm Enzo!",
+      "slogan": "Turning complexity into simple and elegant solutions through code.",
+      "contactButton": "Contact me",
+      "cvButton": "Download resume"
+    },
+  
+    "About": {
+      "title": "About me",
+      "subtitle": "My Introduction",
+      "content": "Software Engineering student at FIAP (4th semester) and intern in Software Verification and Validation at Alstom. I'm passionate about back-end development with a focus on RESTful APIs, layered architecture, and software engineering best practices. I’m currently studying Java with Spring Boot, relational databases (PostgreSQL, Oracle), Git, and Docker, always aiming to grow technically."
+    },
+  
+    "Timeline": {
+      "title": "Experience & Education",
+      "subtitle": "My journey"
+    },
+  
+    "Skills": {
+      "title": "Tools & Technologies",
+      "subtitle": "My skillset"
+    },
+  
+    "Projects": {
+      "title": "Personal Projects",
+      "subtitle": "Most recent work"
+    }
+  }
+  

@@ -1,12 +1,16 @@
 'use client'
 
 import { easeInOut, motion } from "motion/react"
+import { useTranslations } from "next-intl"
 
 interface AboutSectionProps {
     className?: string,
 }
 
 export const AboutSection = ({ className = "" }: AboutSectionProps) => {
+
+    const t = useTranslations("About")
+
     return (
         <section id="about" className={`flex flex-col items-center pt-8 ${className}`}>
 
@@ -17,22 +21,17 @@ export const AboutSection = ({ className = "" }: AboutSectionProps) => {
 
                     <div className="flex flex-col gap-1">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-                            Sobre mim
+                            {t("title")}
                         </h2>
                         <p className="text-sm text-zinc-500">
-                           Minha introdução
+                           {t("subtitle")}
                         </p>
                     </div>
 
 
 
                     <p className="leading-relaxed text-zinc-300 text-justify tracking-wide text-sm sm:text-base md:text-1xl" >
-                    Meu nome é Enzo e sou estudante de Engenharia de Software na FIAP, atualmente no quarto semestre. Atuo como estagiário na área de Verificação e Validação de Software na Alstom, multinacional referência em sinalização ferroviária, contribuindo para garantir a qualidade e segurança de sistemas embarcados utilizados em linhas de metrô no Brasil e no mundo.
-                    </p>
-
-                    <p className="leading-relaxed text-zinc-300 text-justify tracking-wide text-sm sm:text-base md:text-1xl" >
-                    
-                    Tenho interesse em desenvolver soluções escaláveis e bem estruturadas, com foco em APIs RESTful, arquitetura em camadas e boas práticas de engenharia de software. Estou em constante evolução técnica, aprimorando meus conhecimentos em Java com Spring Boot, bancos de dados relacionais (PostgreSQL, Oracle), controle de versão com Git, conteinerização com Docker, além de explorar tecnologias emergentes no ecossistema de desenvolvimento.
+                        {t("content")}
                     </p>
 
                    

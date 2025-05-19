@@ -1,0 +1,29 @@
+{
+    "Home": {
+        "title": "Olá, Eu sou o Enzo!",
+        "slogan": "Transformando complexidade em soluções simples e elegantes, através de código.",
+        "contactButton": "Entre em contato",
+        "cvButton": "Baixar currículo"
+    },
+
+    "About": {
+        "title": "Sobre mim",
+        "subtitle": "Minha Introdução",
+        "content": "Estudante de Engenharia de Software na FIAP (4º semestre) e estagiário em Verificação e Validação de Software na Alstom. Tenho interesse em back-end com foco em APIs RESTful, arquitetura em camadas e boas práticas. Estudo Java com Spring Boot, bancos relacionais (PostgreSQL, Oracle), Git e Docker, buscando sempre evoluir tecnicamente."
+    },
+
+    "Timeline": {
+        "title": "Experiência & Educação",
+        "subtitle": "Minha jornada"
+    },
+
+    "Skills": {
+         "title": "Ferramentas & Tecnologias",
+        "subtitle": "Meus conhecimentos"
+    },
+
+    "Projects": {
+        "title": "Projetos pessoais",
+        "subtitle": "Projetos mais recentes"
+    }
+}

@@ -6,6 +6,7 @@ import { motion, AnimatePresence } from "motion/react";
 import { useEffect, useState } from "react";
 import { Button } from "../Button";
 import { LinkPreview } from "../LinkPreview";
+import { useLocale } from "next-intl";
 
 type Certification = {
   quote: string;
@@ -46,6 +47,8 @@ export const AnimatedCertifications = ({
   const randomRotateY = () => {
     return Math.floor(Math.random() * 21) - 10;
   };
+
+  const locale = useLocale()
   return (
     <div className="mx-auto max-w-sm px-4 py-20 md:max-w-6xl md:px-8 lg:px-12">
       <div className="relative grid grid-cols-1 gap-20 md:grid-cols-2">
@@ -149,7 +152,7 @@ export const AnimatedCertifications = ({
             </motion.p>
           
               <LinkPreview className="font-bold flex mt-4 mb-4 gap-1 items-center" url={certification[active].href}>
-                Exibir credencial 
+                  {locale === "en" ? "Show credential" : "Exibir credencial"}
                 <IconExternalLink size={18}/>  
               </LinkPreview>
             

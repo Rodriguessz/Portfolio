@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
 import { JetBrains_Mono, Inter } from "next/font/google";
+import {getLocale} from 'next-intl/server';
+import {NextIntlClientProvider} from 'next-intl';
 
 import "./globals.css";
 
@@ -20,17 +22,21 @@ export const metadata: Metadata = {
 };
 
 
-export default function RootLayout({
+export default async function RootLayout({
   children,
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
+  const locale = await getLocale();
+ 
+  
   return (
-    <html lang="en">
+    <html lang={locale}>
       <body
         className={`${jetBrains.variable} antialiased`}
       >
-        {children}
+        <NextIntlClientProvider>{children}</NextIntlClientProvider>
       </body>
     </html>
   );

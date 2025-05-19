@@ -1,19 +1,27 @@
 
 
 import { AnimatedProjects } from "@/components/ui/AnimatedProjects"
-import { projects } from "./helper"
+import { projectsPT, projectsEN } from "./helper"
+import { useLocale, useTranslations } from "next-intl"
 
 
 export const ProjectsSection = () => {
+    const locale = useLocale()
+    const t = useTranslations("Projects")
+
+    let projects = projectsPT
+    
+    if(locale == "en") projects = projectsEN
+
     return (
         <>
             <section id="projects" className="flex flex-col gap-10 md:mt-10 mb-20">
                 <div className="flex flex-col gap-1 items-center">
                         <h2 className="text-2xl sm:text-3xl md:text-4xl font-bold">
-                            Projetos
+                            {t("title")}
                         </h2>
                         <p className="text-sm text-zinc-500">
-                            Meus projetos pessoais
+                            {t("subtitle")}
                         </p>
                 </div>
 

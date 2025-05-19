@@ -24,7 +24,7 @@ export const FloatingDock = ({
   desktopClassName,
   mobileClassName,
 }: {
-  items: { title: string; icon: React.ReactNode; href: string }[];
+  items: { title: string; icon: React.ReactNode; href: string, target: string }[];
   desktopClassName?: string;
   mobileClassName?: string;
 }) => {
@@ -40,7 +40,7 @@ const FloatingDockMobile = ({
   items,
   className,
 }: {
-  items: { title: string; icon: React.ReactNode; href: string }[];
+  items: { title: string; icon: React.ReactNode; href: string, target: string }[];
   className?: string;
 }) => {
   const [open, setOpen] = useState(false);
@@ -72,8 +72,8 @@ const FloatingDockMobile = ({
                 <a
                   href={item.href}
                   key={item.title}
-                  target="_blank"
-                  className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-900"
+                  target={item.target}
+                  className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-900/80"
                 >
                   <div className="h-4 w-4">{item.icon}</div>
                 </a>
@@ -84,7 +84,7 @@ const FloatingDockMobile = ({
       </AnimatePresence>
       <button
         onClick={() => setOpen(!open)}
-        className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-800"
+        className="flex h-10 w-10 items-center justify-center rounded-full bg-gray-50 dark:bg-neutral-900"
       >
         <IconLayoutNavbarCollapse className="h-5 w-5 text-neutral-500 dark:text-neutral-400" />
       </button>
@@ -105,7 +105,7 @@ const FloatingDockDesktop = ({
       onMouseMove={(e) => mouseX.set(e.pageX)}
       onMouseLeave={() => mouseX.set(Infinity)}
       className={cn(
-        "mx-auto hidden h-16 items-end gap-4 rounded-2xl bg-gray-50 px-4 pb-3 md:flex dark:bg-neutral-900",
+        "mx-auto hidden h-16 items-end gap-4 rounded-2xl bg-gray-50 px-4 pb-3 md:flex dark:bg-neutral-900/90",
         className,
       )}
     >
@@ -115,6 +115,8 @@ const FloatingDockDesktop = ({
     </motion.div>
   );
 };
+
+
 
 function IconContainer({
   mouseX,
