@@ -5,7 +5,7 @@ export const projectsPT = [
       "Um sistema de votação em tempo real onde os usuários podem criar uma enquete e outros usuários podem votar. O sistema gera um ranking entre as opções e atualiza os votos em tempo real.",
     name: "Livepollster NLW",
     designation: "(Fastify, Typescript, Zod, Prisma)",
-    src: "certifications/api.webp",
+    src: "/livepollster.png",
     href: "https://github.com/Rodriguessz/Livepollster-NLW"
   },
   
@@ -53,7 +53,7 @@ export const projectsEN = [
       "A real-time voting system where users can create polls and others can vote. The system generates a live ranking of the options and updates the votes in real time.",
     name: "Livepollster NLW",
     designation: "(Fastify, TypeScript, Zod, Prisma)",
-    src: "/certifications/api.webp",
+    src: "/livepollster.png",
     href: "https://github.com/Rodriguessz/Livepollster-NLW"
   },
   

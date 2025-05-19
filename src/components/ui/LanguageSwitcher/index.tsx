@@ -22,7 +22,7 @@ export function LanguageSwitcher() {
   };
 
   return (
-    <div className="fixed top-4 right-4 z-50 bg-neutral-900/90 backdrop-blur-md  rounded-full md:rounded-[6px] px-3 py-1 flex  gap-2 shadow-md">
+    <div className="fixed top-4 right-6 z-50 bg-neutral-900/90 backdrop-blur-md  rounded-full md:rounded-[6px] px-3 py-1 flex  gap-2 shadow-md">
       <button
         onClick={() => changeLanguage('pt')}
         className={`text-lg transition-transform hover:scale-130 cursor-pointer ${
