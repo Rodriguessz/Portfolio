@@ -5,7 +5,8 @@ import {
     IconUser,
     IconTimeline,
     IconCode,
-    IconDeviceDesktop
+    IconDeviceDesktop,
+    IconMail
   } from "@tabler/icons-react";
 
 
@@ -49,6 +50,14 @@ export const itemsPT = [
           <IconDeviceDesktop className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
         href: "#projects",
+      },
+
+      {
+        title: "Entre em contato",
+        icon: (
+          <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+        ),
+        href: "#contact",
       },
 
       {
@@ -108,12 +117,22 @@ export const itemsEN = [
     href: "#tech",
   },
 
+  
+
   {
     title: "Projects",
     icon: (
       <IconDeviceDesktop className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
     href: "#projects",
+  },
+
+  {
+    title: "Get in touch",
+    icon: (
+      <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+    ),
+    href: "#contact",
   },
 
   {

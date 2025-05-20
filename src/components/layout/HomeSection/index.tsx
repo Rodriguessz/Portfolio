@@ -17,42 +17,42 @@ interface HomeSectionProps {
 export const HomeSection = ({ className = "" }: HomeSectionProps) => {
     const locale = useLocale()
     const t = useTranslations('Home');
-    
+
     const dinamicWords = {
         "pt": [
             {
                 text: "Desenvolvedor",
-              },
-              {
+            },
+            {
                 text: "Web",
-              },
-              {
+            },
+            {
                 text: "Fullstack",
                 className: "text-violet-500 dark:text-blue-500",
-          
-              },
+
+            },
         ],
 
         "en": [
             {
                 text: "Fullstack",
-              },
-              {
+            },
+            {
                 text: "Web",
-              },
-              {
+            },
+            {
                 text: "Developer",
                 className: "text-violet-500 dark:text-blue-500",
-          
-              },
+
+            },
         ]
     }
     let words = dinamicWords["pt"];
-    if(locale == "en") words = dinamicWords["en"];
+    if (locale == "en") words = dinamicWords["en"];
 
     return (
-        <section id="home" className={`flex flex-col md:flex-row md:gap-5 md:items-center ${className}`}>
-            
+        <section id="home" className={`flex flex-col md:flex-row md:gap-5 md:items-center pt-8 mb-10 ${className}`}>
+
             {/* Imagem animada */}
             <motion.div
                 className="md:w-[40%] w-full flex items-center justify-center md:justify-start"
@@ -94,15 +94,20 @@ export const HomeSection = ({ className = "" }: HomeSectionProps) => {
                 </div>
 
                 <div id="actions" className="flex gap-6 mt-8">
-                    <Button className="border-white border text-sm font-bold">
-                        <IconMail className="text-xs font-light" />
-                        <p>{t("contactButton")}</p>
-                    </Button>
+                    <a href="#contact">
+                        <Button className="border-white border text-sm font-bold">
+                            <IconMail className="text-xs font-light" />
+                            <p>{t("contactButton")}</p>
+                        </Button>
+                    </a>
 
-                    <Button className="border-white border text-sm font-bold">
-                        <IconDownload size={22} />
-                        {t("cvButton")}
-                    </Button>
+                    <a href="/cv.pdf" download >
+                        <Button className="border-white border text-sm font-bold">
+                            <IconDownload size={22} />
+                            {t("cvButton")}
+                        </Button>
+                    </a>
+
                 </div>
             </div>
         </section>

@@ -2,7 +2,7 @@
     "Home": {
       "title": "Hi, I'm Enzo!",
       "slogan": "Turning complexity into simple and elegant solutions through code.",
-      "contactButton": "Contact me",
+      "contactButton": "Get in Touch",
       "cvButton": "Download resume"
     },
   
@@ -13,18 +13,35 @@
     },
   
     "Timeline": {
-      "title": "Experience & Education",
+      "title": "Career & Education",
       "subtitle": "My journey"
     },
   
     "Skills": {
-      "title": "Tools & Technologies",
+      "title": "Technologies",
       "subtitle": "My skillset"
     },
   
     "Projects": {
       "title": "Personal Projects",
       "subtitle": "Most recent work"
+    },
+
+    "Contact": {
+        "title": "Get in Touch",
+        "subtitle": "Send me a message",
+        "inputName": "Name",
+        "inputLastName": "Lastname",
+        "inputEmail": "E-mail",
+        "inputMessage": "Message",
+        "sendButton": "Send",
+        "successMessage": "Message sent successfully! I'll get back to you soon.",
+        "errorMessage": "Something went wrong. Please try again shortly.",
+        "fieldError": "Make sure to complete all the fields!"
+
+
+
+
     }
   }
   

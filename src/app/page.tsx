@@ -9,6 +9,7 @@ import { FloatingDock } from "@/components/ui/FloatingDock";
 import { itemsPT, itemsEN} from "@/components/ui/FloatingDock/items";
 import { LanguageSwitcher } from "@/components/ui/LanguageSwitcher";
 import { useLocale } from "next-intl";
+import { ToastContainer, toast } from 'react-toastify';
 
 
 export default function Home() {
@@ -27,7 +28,6 @@ export default function Home() {
           <TechSection />
           <ProjectsSection />
           <ContactSection />
-
           <FloatingDock desktopClassName="fixed bottom-2 left-1/2 -translate-x-1/2 z-999" mobileClassName="fixed bottom-3 right-3 z-999" items={items}/>
         </Container>
       </>

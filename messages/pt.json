@@ -13,12 +13,12 @@
     },
 
     "Timeline": {
-        "title": "Experiência & Educação",
+        "title": "Carreira & Educação",
         "subtitle": "Minha jornada"
     },
 
     "Skills": {
-         "title": "Ferramentas & Tecnologias",
+         "title": "Tecnologias",
         "subtitle": "Meus conhecimentos"
     },
 
@@ -29,6 +29,14 @@
 
     "Contact": {
         "title": "Entre em contato",
-        "subtitle": "Me envie uma mensagem"
+        "subtitle": "Me envie uma mensagem",
+        "inputName": "Nome",
+        "inputLastName": "Sobrenome",
+        "inputEmail": "E-mail",
+        "inputMessage": "Mensagem",
+        "sendButton": "Enviar",
+        "successMessage": "Mensagem enviada com sucesso! Em breve retorno o contato.",
+        "errorMessage": "Algo deu errado. Tente novamente em instantes.",
+        "fieldError": "Preencha todos os campos!"
     }
 }

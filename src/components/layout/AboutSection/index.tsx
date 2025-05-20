@@ -12,7 +12,7 @@ export const AboutSection = ({ className = "" }: AboutSectionProps) => {
     const t = useTranslations("About")
 
     return (
-        <section id="about" className={`flex flex-col items-center pt-8 ${className}`}>
+        <section id="about" className={`flex flex-col items-center pt-8 mb-10 ${className}`}>
 
             {/* Container de conteúdo com imagem + texto */}
             <div className="flex flex-col gap-5 md:flex-row md:gap-5 md:items-center w-full max-w-6xl">
