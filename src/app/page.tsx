@@ -9,7 +9,6 @@ import { FloatingDock } from "@/components/ui/FloatingDock";
 import { itemsPT, itemsEN} from "@/components/ui/FloatingDock/items";
 import { LanguageSwitcher } from "@/components/ui/LanguageSwitcher";
 import { useLocale } from "next-intl";
-import { ToastContainer, toast } from 'react-toastify';
 
 
 export default function Home() {
