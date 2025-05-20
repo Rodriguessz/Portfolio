@@ -18,6 +18,7 @@ export const itemsPT = [
           <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
         href: "#home",
+        target: "_self"
       },
 
       {
@@ -26,6 +27,7 @@ export const itemsPT = [
           <IconUser className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
         href: "#about",
+        target: "_self"
       },
    
       {
@@ -34,6 +36,7 @@ export const itemsPT = [
           <IconTimeline className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
         href: "#timeline",
+        target: "_self"
       },
 
       {
@@ -42,6 +45,7 @@ export const itemsPT = [
           <IconCode className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
         href: "#tech",
+        target: "_self"
       },
 
       {
@@ -50,6 +54,7 @@ export const itemsPT = [
           <IconDeviceDesktop className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
         href: "#projects",
+        target: "_self"
       },
 
       {
@@ -58,6 +63,7 @@ export const itemsPT = [
           <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
         ),
         href: "#contact",
+        target: "_self"
       },
 
       {
@@ -91,6 +97,7 @@ export const itemsEN = [
       <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
     href: "#home",
+    target: "_self"
   },
 
   {
@@ -99,6 +106,7 @@ export const itemsEN = [
       <IconUser className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
     href: "#about",
+    target: "_self"
   },
 
   {
@@ -107,6 +115,7 @@ export const itemsEN = [
       <IconTimeline className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
     href: "#timeline",
+    target: "_self"
   },
 
   {
@@ -115,6 +124,7 @@ export const itemsEN = [
       <IconCode className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
     href: "#tech",
+    target: "_self"
   },
 
   
@@ -125,6 +135,7 @@ export const itemsEN = [
       <IconDeviceDesktop className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
     href: "#projects",
+    target: "_self"
   },
 
   {
@@ -133,6 +144,7 @@ export const itemsEN = [
       <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
     ),
     href: "#contact",
+    target: "_self"
   },
 
   {
