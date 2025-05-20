@@ -25,5 +25,10 @@
     "Projects": {
         "title": "Projetos pessoais",
         "subtitle": "Projetos mais recentes"
+    },
+
+    "Contact": {
+        "title": "Entre em contato",
+        "subtitle": "Me envie uma mensagem"
     }
 }
