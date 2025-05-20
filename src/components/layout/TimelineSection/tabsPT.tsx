@@ -6,7 +6,7 @@ export const experiencePT = [
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek />
+          <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
           <h4 className="text-base md:text-2xl text-center">2025 - Atual</h4>
         </div>
         <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
@@ -21,7 +21,7 @@ export const experiencePT = [
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek />
+          <IconCalendarWeek className="text-black dark:text-zinc-300 " />
           <h4 className="text-base md:text-2xl text-center">2024 - 2025</h4>
         </div>
 
@@ -55,7 +55,7 @@ export const experiencePT = [
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek />
+          <IconCalendarWeek className="text-black dark:text-zinc-300 " />
           <h4 className="text-base md:text-2xl text-center">2022 - 2024</h4>
         </div>
 
@@ -79,7 +79,7 @@ export const educationPT = [
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek />
+          <IconCalendarWeek className="text-black dark:text-zinc-300 " />
           <h4 className="text-base md:text-2xl text-center">2024 - 2025</h4>
         </div>
 
@@ -101,7 +101,7 @@ export const educationPT = [
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek />
+          <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
           <h4 className="text-base md:text-2xl text-center">2023 - 2027</h4>
         </div>
         <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
@@ -116,7 +116,7 @@ export const educationPT = [
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek />
+          <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
           <h4 className="text-base md:text-2xl text-center">2020 - 2022</h4>
         </div>
 

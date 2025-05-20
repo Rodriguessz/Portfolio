@@ -30,7 +30,7 @@ export const AboutSection = ({ className = "" }: AboutSectionProps) => {
 
 
 
-                    <p className="leading-relaxed text-zinc-300 text-justify tracking-wide text-sm sm:text-base md:text-1xl" >
+                    <p className="leading-relaxed text-black dark:text-zinc-300 text-justify tracking-wide text-sm sm:text-base md:text-1xl" >
                         {t("content")}
                     </p>
 

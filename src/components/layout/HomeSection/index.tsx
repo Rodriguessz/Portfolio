@@ -95,14 +95,14 @@ export const HomeSection = ({ className = "" }: HomeSectionProps) => {
 
                 <div id="actions" className="flex gap-6 mt-8">
                     <a href="#contact">
-                        <Button className="border-white border text-sm font-bold">
+                        <Button className="dark:border-white border-zinc-300 border text-sm font-bold">
                             <IconMail className="text-xs font-light" />
                             <p>{t("contactButton")}</p>
                         </Button>
                     </a>
 
                     <a href="/cv.pdf" download >
-                        <Button className="border-white border text-sm font-bold">
+                        <Button className="dark:border-white border-zinc-300 border text-sm font-bold">
                             <IconDownload size={22} />
                             {t("cvButton")}
                         </Button>

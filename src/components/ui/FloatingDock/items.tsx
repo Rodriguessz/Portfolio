@@ -15,7 +15,7 @@ export const itemsPT = [
     {
         title: "Home",
         icon: (
-          <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+          <IconHome className="h-full w-full text-neutral-600 dark:text-neutral-300" />
         ),
         href: "#home",
         target: "_self"
@@ -24,7 +24,7 @@ export const itemsPT = [
       {
         title: "Sobre mim",
         icon: (
-          <IconUser className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+          <IconUser className="h-full w-full text-neutral-600 dark:text-neutral-300" />
         ),
         href: "#about",
         target: "_self"
@@ -33,7 +33,7 @@ export const itemsPT = [
       {
         title: "Educação & Experiência",
         icon: (
-          <IconTimeline className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+          <IconTimeline className="h-full w-full text-neutral-600 dark:text-neutral-300" />
         ),
         href: "#timeline",
         target: "_self"
@@ -42,7 +42,7 @@ export const itemsPT = [
       {
         title: "Tech & Skills",
         icon: (
-          <IconCode className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+          <IconCode className="h-full w-full text-neutral-600 dark:text-neutral-300" />
         ),
         href: "#tech",
         target: "_self"
@@ -51,7 +51,7 @@ export const itemsPT = [
       {
         title: "Projetos",
         icon: (
-          <IconDeviceDesktop className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+          <IconDeviceDesktop className="h-full w-full text-neutral-600 dark:text-neutral-300" />
         ),
         href: "#projects",
         target: "_self"
@@ -60,7 +60,7 @@ export const itemsPT = [
       {
         title: "Entre em contato",
         icon: (
-          <IconMail className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+          <IconMail className="h-full w-full text-neutral-600 dark:text-neutral-300" />
         ),
         href: "#contact",
         target: "_self"
@@ -69,7 +69,7 @@ export const itemsPT = [
       {
         title: "Github",
         icon: (
-          <IconBrandGithub className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+          <IconBrandGithub className="h-full w-full text-neutral-600 dark:text-neutral-300" />
         ),
         href: "https://github.com/Rodriguessz/",
         target: "_blank"
@@ -78,7 +78,7 @@ export const itemsPT = [
       {
         title: "LinkedIn",
         icon: (
-          <IconBrandLinkedin className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+          <IconBrandLinkedin className="h-full w-full text-neutral-600 dark:text-neutral-300" />
         ),
         href: "https://www.linkedin.com/in/enzorodrigues03/",
         target: "_blank"
@@ -94,7 +94,7 @@ export const itemsEN = [
   {
     title: "Home",
     icon: (
-      <IconHome className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      <IconHome className="h-full w-full text-neutral-600 dark:text-neutral-300" />
     ),
     href: "#home",
     target: "_self"
@@ -103,7 +103,7 @@ export const itemsEN = [
   {
     title: "About Me",
     icon: (
-      <IconUser className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      <IconUser className="h-full w-full text-neutral-600 dark:text-neutral-300" />
     ),
     href: "#about",
     target: "_self"
@@ -112,7 +112,7 @@ export const itemsEN = [
   {
     title: "Education & Experience",
     icon: (
-      <IconTimeline className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      <IconTimeline className="h-full w-full text-neutral-600 dark:text-neutral-300" />
     ),
     href: "#timeline",
     target: "_self"
@@ -121,7 +121,7 @@ export const itemsEN = [
   {
     title: "Tech & Skills",
     icon: (
-      <IconCode className="h-full w-full text-neutral-500 dark:text-neutral-300" />
+      <IconCode className="h-full w-full text-neutral-600 dark:text-neutral-300" />
     ),
     href: "#tech",
     target: "_self"

@@ -98,7 +98,7 @@ export const MovingTechs = ({
               <div className="relative z-20 mt-6 flex flex-row items-center justify-center">
                 <span className="flex flex-col g-2 items-center">
                   {item.icon}
-                  <p>{item.title}</p>
+                  <p className="text-black dark:text-zinc-300 ">{item.title}</p>
                 </span>
               </div>
             </blockquote>
