@@ -20,11 +20,11 @@ export const projectsPT = [
 
   {
     quote:
-      "Rocketnotes WEB é a interface front-end da aplicação Rocketnotes, projetada para interagir com a Rocketnotes API e proporcionar uma experiência completa de gerenciamento de notas.",
+      "MovieNotion WEB é a aplicação frontend desenvolvida para gerenciar a experiência do usuário ao interagir com a MovieNotion API.",
     name: "Movie Notion WEB",
     designation: "(React.js, Styled-Components)",
     src: "/movienotion.png",
-    href: "https://github.com/Rodriguessz/Explorer-Stock"
+    href: "https://github.com/Rodriguessz/Movie-Notion-WEB"
   },
 
   {
@@ -68,11 +68,11 @@ export const projectsEN = [
 
   {
     quote:
-      "Movie Notion WEB is the front-end interface of the Rocketnotes application, designed to interact with the Rocketnotes API and provide a complete note management experience.",
+      "MovieNotion WEB is the frontend application developed to manage the user experience when interacting with the MovieNotion API.",
     name: "Movie Notion WEB",
     designation: "(React.js, Styled-Components)",
     src: "/movienotion.png",
-    href: "https://github.com/Rodriguessz/Explorer-Stock"
+    href: "https://github.com/Rodriguessz/Movie-Notion-WEB"
   },
 
   {
