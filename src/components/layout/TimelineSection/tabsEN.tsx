@@ -1,4 +1,4 @@
-import { IconCalendarWeek } from "@tabler/icons-react";
+import { IconCalendarWeek, IconBriefcase } from "@tabler/icons-react";
 
 export const experienceEN = [
   {
@@ -6,11 +6,16 @@ export const experienceEN = [
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
-          <h4 className="text-base md:text-2xl text-center">2025 - Current</h4>
+          <IconCalendarWeek className="text-black dark:text-zinc-300" />
+          <h4 className="text-base md:text-2xl text-center">2025 - Present</h4>
+        </div>
+
+        <div className="w-full flex gap-3 items-center mt-2">
+          <IconBriefcase className="text-black dark:text-zinc-500" />
+          <h5 className="text-sm md:text-base text-black dark:text-zinc-500">Software Verification and Validation Intern</h5>
         </div>
         <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-          Intern in Software Verification and Validation, contributing to the quality and safety of embedded systems used in metro lines across Brazil and worldwide.
+          Intern in the Software Verification and Validation area, contributing to ensure the quality and safety of embedded systems used in metro lines in Brazil and around the world.
         </p>
       </div>
     ),
@@ -21,29 +26,46 @@ export const experienceEN = [
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
+          <IconCalendarWeek className="text-black dark:text-zinc-300" />
           <h4 className="text-base md:text-2xl text-center">2024 - 2025</h4>
+        </div>
+
+        <div className="w-full flex gap-3 items-center mt-2">
+          <IconBriefcase className="text-black dark:text-zinc-500" />
+          <h5 className="text-sm md:text-base text-black dark:text-zinc-500">Junior Software Engineer</h5>
         </div>
 
         <div className="flex flex-col g-1">
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            Developed custom tools and new features using PHP, Laravel, and MySQL, enhancing system performance and reliability.
+            - Development of fullstack solutions focused on scalability and maintainability using <strong>PHP (Laravel), Node.js, React.js, Vue.js, Tailwind CSS.</strong>
           </p>
 
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            Redesigned interface layouts with JavaScript, React, and Styled-components, applying UI/UX principles to significantly improve the user experience.
+            - Design and implementation of responsive and accessible user interfaces with a focus on performance, usability, and <strong>UI/UX</strong> best practices using <strong>React and Tailwind CSS.</strong>
+          </p>
+
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+            - Refactoring of legacy system in <strong>PHP 5</strong>, migrating to a modern <strong>RESTful API</strong> with <strong>Laravel</strong>, applying <strong>Clean Architecture</strong> principles and software engineering best practices.
+          </p>
+
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+            - Bug fixing and continuous maintenance in both legacy systems and new <strong>APIs</strong>, working with technical support tickets to ensure production stability.
+          </p>
+
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+            - Version control and team collaboration with <strong>Git</strong>, using <strong>Gitflow</strong> workflows, task-specific branches, and <strong>pull requests</strong> for review and continuous integration.
           </p>
         </div>
 
         <div className="grid grid-cols-2 gap-4">
           <img
             src="/filtersFeature.png"
-            alt="Filters Feature project"
+            alt="Filters Feature"
             className="h-28 w-full rounded-lg object-cover md:h-38 lg:h-50 hidden sm:block"
           />
           <img
             src="/dinamicTable.png"
-            alt="Dynamic Table Project"
+            alt="Dynamic Table"
             className="h-28 w-full rounded-lg object-cover md:h-38 lg:h-50 hidden sm:block"
           />
         </div>
@@ -56,23 +78,35 @@ export const experienceEN = [
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
+          <IconCalendarWeek className="text-black dark:text-zinc-300" />
           <h4 className="text-base md:text-2xl text-center">2022 - 2024</h4>
+        </div>
+
+        <div className="w-full flex gap-3 items-center mt-2">
+          <IconBriefcase className="text-black dark:text-zinc-500" />
+          <h5 className="text-sm md:text-base text-black dark:text-zinc-500">Software Development Intern</h5>
         </div>
 
         <div className="flex flex-col g-1">
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            Maintained and customized the company's internal platform to align with business needs using HTML, CSS, JavaScript, and PHP.
+            - Development of landing pages with custom flows for client campaigns, using <strong>
+              PHP on the back-end and HTML, CSS, Bootstrap, and JavaScript on the front-end.
+            </strong>
           </p>
 
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            Integrated and configured scripts, tags, and events with Google Tag Manager (GTM), improving analytics and digital strategy optimization.
+            - Automation of internal processes for campaign setup and testing, significantly reducing time between creation and deployment.
+          </p>
+
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+            - Creation of <strong>JavaScript</strong> scripts for lead capture and integration via Google Tag Manager, ensuring accurate tracking of user interactions.
           </p>
         </div>
       </div>
     ),
   },
 ];
+
 
 
 export const educationEN = [

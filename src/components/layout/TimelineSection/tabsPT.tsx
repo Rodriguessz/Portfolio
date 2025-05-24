@@ -1,4 +1,4 @@
-import { IconCalendarWeek } from "@tabler/icons-react";
+import { IconCalendarWeek, IconBriefcase} from "@tabler/icons-react";
 
 export const experiencePT = [
   {
@@ -8,6 +8,11 @@ export const experiencePT = [
         <div className="w-full flex gap-5 items-center">
           <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
           <h4 className="text-base md:text-2xl text-center">2025 - Atual</h4>
+        </div>
+
+        <div className="w-full flex gap-3 items-center mt-2">
+          <IconBriefcase className="text-black dark:text-zinc-500 " />
+          <h5 className="text-sm md:text-base text-black dark:text-zinc-500 ">Estagiário de Verificação e Validação de Software</h5>
         </div>
         <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
           Estagiário na área de Verificação e Validação de Software, contribuindo para garantir a qualidade e segurança de sistemas embarcados utilizados em linhas de metrô no Brasil e no mundo.
@@ -24,15 +29,43 @@ export const experiencePT = [
           <IconCalendarWeek className="text-black dark:text-zinc-300 " />
           <h4 className="text-base md:text-2xl text-center">2024 - 2025</h4>
         </div>
+      
+
+        <div className="w-full flex gap-3 items-center mt-2">
+          <IconBriefcase className="text-black dark:text-zinc-500 " />
+          <h5 className="text-sm md:text-base text-black dark:text-zinc-500 ">Engenheiro de Software Jr</h5>
+        </div>
+
 
         <div className="flex flex-col g-1">
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            Desenvolvi ferramentas personalizadas e novas funcionalidades com PHP, Laravel e MySQL, resultando em processos mais rápidos e confiáveis.
+          - Desenvolvimento de soluções fullstack com foco em escalabilidade e manutenibilidade, utilizando <strong>PHP (Laravel), Node.  js, React.js, Vue.js, Tailwind CSS.</strong>
           </p>
 
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            Implementei um novo layout de interface aplicando conceitos de UI e UX com JavaScript, React e Styled-components, melhorando significativamente a experiência do usuário.
+          - Criação e idealização de interfaces responsivas e acessíveis, com foco em performance, usabilidade e experiência do usuário <strong>(UI/UX)</strong>, aplicando boas práticas com <strong>React e Tailwind CSS.</strong>
           </p>
+          
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Refatoração de sistema legado em <strong>PHP 5</strong>, migrando para uma <strong>API RESTful</strong> moderna com <strong>Laravel</strong>, seguindo princípios da <strong>Clean Architecture</strong> e boas práticas de desenvolvimento de software.
+
+          </p>
+
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          
+            - Correção de bugs e manutenção contínua em sistemas legados e novas <strong>APIs</strong>, atuando com base em tickets abertos pelo suporte técnico e garantindo estabilidade em produção.
+
+          </p>
+
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          
+            - Versionamento e colaboração com <strong>Git</strong>, utilizando fluxos baseados em  <strong>Gitflow</strong>, ramificações específicas por tarefa e <strong>pull requests</strong> para revisão e integração contínua em equipe.
+
+          </p>
+          
+          
+
+          
         </div>
 
         <div className="grid grid-cols-2 gap-4">
@@ -59,13 +92,24 @@ export const experiencePT = [
           <h4 className="text-base md:text-2xl text-center">2022 - 2024</h4>
         </div>
 
+        <div className="w-full flex gap-3 items-center mt-2">
+          <IconBriefcase className="text-black dark:text-zinc-500 " />
+          <h5 className="text-sm md:text-base text-black dark:text-zinc-500 ">Estagiário de Desenolvimento de Software</h5>
+        </div>
+
         <div className="flex flex-col g-1">
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            Colaborei na manutenção e customização da plataforma interna da empresa para atender às necessidades do negócio utilizando HTML, CSS, JavaScript e PHP.
+          - Desenvolvimento de landing pages com fluxos personalizados para campanhas de clientes, utilizando <strong>
+          PHP no back-end e HTML, CSS, Bootstrap e JavaScript no front-end.
+            </strong>
           </p>
 
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            Utilizei o Google Tag Manager (GTM) para implementar e configurar scripts, tags e eventos em sites, otimizando a análise de dados e estratégias online.
+           - Automatização de processos internos de configuração e testes de campanhas, reduzindo significativamente o tempo entre criação e ativação.
+          </p>
+
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Criação de scripts em <strong>JavaScript</strong> para captação de leads e integração via Google Tag Manager, garantindo rastreamento completo e preciso das interações.
           </p>
         </div>
       </div>
