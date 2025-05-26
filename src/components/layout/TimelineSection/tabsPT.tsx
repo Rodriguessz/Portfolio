@@ -1,4 +1,5 @@
-import { IconCalendarWeek, IconBriefcase} from "@tabler/icons-react";
+import { IconCalendarWeek, IconBriefcase, IconSchool, IconExternalLink } from "@tabler/icons-react";
+import { LinkPreview } from "@/components/ui/LinkPreview";
 
 export const experiencePT = [
   {
@@ -6,7 +7,7 @@ export const experiencePT = [
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
+          <IconCalendarWeek className="text-black dark:text-zinc-300 " />
           <h4 className="text-base md:text-2xl text-center">2025 - Atual</h4>
         </div>
 
@@ -29,7 +30,7 @@ export const experiencePT = [
           <IconCalendarWeek className="text-black dark:text-zinc-300 " />
           <h4 className="text-base md:text-2xl text-center">2024 - 2025</h4>
         </div>
-      
+
 
         <div className="w-full flex gap-3 items-center mt-2">
           <IconBriefcase className="text-black dark:text-zinc-500 " />
@@ -39,33 +40,33 @@ export const experiencePT = [
 
         <div className="flex flex-col g-1">
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-          - Desenvolvimento de soluções fullstack com foco em escalabilidade e manutenibilidade, utilizando <strong>PHP (Laravel), Node.  js, React.js, Vue.js, Tailwind CSS.</strong>
+            - Desenvolvimento de soluções fullstack com foco em escalabilidade e manutenibilidade, utilizando <strong>PHP (Laravel), Node.  js, React.js, Vue.js, Tailwind CSS.</strong>
           </p>
 
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-          - Criação e idealização de interfaces responsivas e acessíveis, com foco em performance, usabilidade e experiência do usuário <strong>(UI/UX)</strong>, aplicando boas práticas com <strong>React e Tailwind CSS.</strong>
+            - Criação e idealização de interfaces responsivas e acessíveis, com foco em performance, usabilidade e experiência do usuário <strong>(UI/UX)</strong>, aplicando boas práticas com <strong>React e Tailwind CSS.</strong>
           </p>
-          
+
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-          - Refatoração de sistema legado em <strong>PHP 5</strong>, migrando para uma <strong>API RESTful</strong> moderna com <strong>Laravel</strong>, seguindo princípios da <strong>Clean Architecture</strong> e boas práticas de desenvolvimento de software.
+            - Refatoração de sistema legado em <strong>PHP 5</strong>, migrando para uma <strong>API RESTful</strong> moderna com <strong>Laravel</strong>, seguindo princípios da <strong>Clean Architecture</strong> e boas práticas de desenvolvimento de software.
 
           </p>
 
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-          
+
             - Correção de bugs e manutenção contínua em sistemas legados e novas <strong>APIs</strong>, atuando com base em tickets abertos pelo suporte técnico e garantindo estabilidade em produção.
 
           </p>
 
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-          
+
             - Versionamento e colaboração com <strong>Git</strong>, utilizando fluxos baseados em  <strong>Gitflow</strong>, ramificações específicas por tarefa e <strong>pull requests</strong> para revisão e integração contínua em equipe.
 
           </p>
-          
-          
 
-          
+
+
+
         </div>
 
         <div className="grid grid-cols-2 gap-4">
@@ -99,17 +100,17 @@ export const experiencePT = [
 
         <div className="flex flex-col g-1">
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-          - Desenvolvimento de landing pages com fluxos personalizados para campanhas de clientes, utilizando <strong>
-          PHP no back-end e HTML, CSS, Bootstrap e JavaScript no front-end.
+            - Desenvolvimento de landing pages com fluxos personalizados para campanhas de clientes, utilizando <strong>
+              PHP no back-end e HTML, CSS, Bootstrap e JavaScript no front-end.
             </strong>
           </p>
 
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-           - Automatização de processos internos de configuração e testes de campanhas, reduzindo significativamente o tempo entre criação e ativação.
+            - Automatização de processos internos de configuração e testes de campanhas, reduzindo significativamente o tempo entre criação e ativação.
           </p>
 
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-          - Criação de scripts em <strong>JavaScript</strong> para captação de leads e integração via Google Tag Manager, garantindo rastreamento completo e preciso das interações.
+            - Criação de scripts em <strong>JavaScript</strong> para captação de leads e integração via Google Tag Manager, garantindo rastreamento completo e preciso das interações.
           </p>
         </div>
       </div>
@@ -119,38 +120,49 @@ export const experiencePT = [
 
 export const educationPT = [
   {
-    title: "Explorer Bootcamp",
-    content: (
-      <div className="flex flex-col gap-5">
-        <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek className="text-black dark:text-zinc-300 " />
-          <h4 className="text-base md:text-2xl text-center">2024 - 2025</h4>
-        </div>
-
-        <div className="flex flex-col g-1">
-          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            Rocketseat
-          </p>
-
-          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            HTML5, CSS3, JavaScript, Node.js, Express.js, Knex.js, ReactJs, Git, SQL, Figma.
-          </p>
-        </div>
-      </div>
-    ),
-  },
-
-  {
     title: "Engenharia de Software",
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
+          <IconCalendarWeek className="text-black dark:text-zinc-300 " />
           <h4 className="text-base md:text-2xl text-center">2023 - 2027</h4>
         </div>
+
+        <div className="w-full flex gap-3 items-center mt-2">
+          <IconSchool className="text-black dark:text-zinc-500 " />
+          <h5 className="text-sm md:text-base text-black dark:text-zinc-500">FIAP - Faculdade de Informática e Administração Paulista</h5>
+        </div>
+
+
         <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-          FIAP - Faculdade de Informática e Administração Paulista
+          - Desenvolvimento de aplicações completas utilizando Java (Spring + Spring Security), com foco em boas práticas de orientação a objetos, princípios SOLID e arquitetura DDD.
         </p>
+
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Construção de interfaces responsivas com HTML, CSS, JavaScript, React Native, Next.js e TailwindCSS, aplicando conceitos de UX/UI.
+        </p>
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Implementação de algoritmos clássicos de estrutura de dados como pilhas, filas, listas ligadas, árvores binárias e grafos, utilizando Python.
+        </p>
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Criação e modelagem de bancos de dados relacionais com Oracle, desenvolvendo desde os modelos conceitual, lógico e físico até a aplicação prática em sistemas integrados.
+        </p>
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Desenvolvimento de projetos de Internet das Coisas (IoT) com Arduino e linguagem C++, focando em automação e integração com sensores e atuadores.
+        </p>
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Estudo aprofundado de redes de computadores, incluindo os modelos OSI, TCP/IP, UDP, e uso de ferramentas como Cisco Packet Tracer para simulação e análise de infraestrutura de rede.
+        </p>
+
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Participação em projetos multidisciplinares com foco em aprendizado prático, integração entre áreas e resolução de problemas reais.
+        </p>
+
+        <LinkPreview className="font-bold flex mb-4 gap-1 items-center" url="https://github.com/FI4P/">
+            Visite o repositório
+            <IconExternalLink size={18} />
+          </LinkPreview>
+
       </div>
     ),
   },
@@ -160,18 +172,36 @@ export const educationPT = [
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
+
+          <IconCalendarWeek className="text-black dark:text-zinc-300 " />
           <h4 className="text-base md:text-2xl text-center">2020 - 2022</h4>
         </div>
 
+
+        <div className="w-full flex gap-3 items-center mt-2">
+          <IconSchool className="text-black dark:text-zinc-500 " />
+          <h5 className="text-sm md:text-base text-black dark:text-zinc-500">Escola SENAI de Informática</h5>
+        </div>
+
+
+
         <div className="flex flex-col g-1">
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            SENAI - Ricardo Lerner
+            - Implementação de interfaces de usuário com <strong>React.js, utilizando Tailwind CSS e Bootstrap.</strong>
+          </p>
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+            - Desenvolvimento de APIs utilizando Node.js e Express.js, Java e Spring Boot.
           </p>
 
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            HTML5, CSS3, JavaScript, Node.js, Java, Vraptor, Spring Boot, Git, MySQL, Oracle, Selenium, Redes.
+            - Integrações com bancos de dados Oracle e MySQL.
           </p>
+
+          <LinkPreview className="font-bold flex mb-4 gap-1 items-center" url="https://github.com/Senai-FullStack">
+            Visite o repositório
+            <IconExternalLink size={18} />
+          </LinkPreview>
+
         </div>
       </div>
     ),

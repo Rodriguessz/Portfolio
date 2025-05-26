@@ -1,4 +1,5 @@
-import { IconCalendarWeek, IconBriefcase } from "@tabler/icons-react";
+import { IconCalendarWeek, IconBriefcase, IconSchool, IconExternalLink } from "@tabler/icons-react";
+import { LinkPreview } from "@/components/ui/LinkPreview";
 
 export const experienceEN = [
   {
@@ -111,38 +112,47 @@ export const experienceEN = [
 
 export const educationEN = [
   {
-    title: "Explorer Bootcamp",
-    content: (
-      <div className="flex flex-col gap-5">
-        <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
-          <h4 className="text-base md:text-2xl text-center">2024 - 2025</h4>
-        </div>
-
-        <div className="flex flex-col g-1">
-          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            Rocketseat
-          </p>
-
-          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            HTML5, CSS3, JavaScript, Node.js, Express.js, Knex.js, ReactJS, Git, SQL, Figma.
-          </p>
-        </div>
-      </div>
-    ),
-  },
-
-  {
     title: "Software Engineering",
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
+          <IconCalendarWeek className="text-black dark:text-zinc-300 " />
           <h4 className="text-base md:text-2xl text-center">2023 - 2027</h4>
         </div>
+
+        <div className="w-full flex gap-3 items-center mt-2">
+          <IconSchool className="text-black dark:text-zinc-500 " />
+          <h5 className="text-sm md:text-base text-black dark:text-zinc-500">FIAP - Faculdade de Informática e Administração Paulista</h5>
+        </div>
+
         <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-          FIAP - Faculty of Informatics and Administration of São Paulo
+          - Development of full-stack applications using Java (Spring + Spring Security), emphasizing object-oriented best practices, SOLID principles, and DDD architecture.
         </p>
+
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Building responsive interfaces with HTML, CSS, JavaScript, React Native, Next.js, and TailwindCSS, applying UX/UI design principles.
+        </p>
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Implementation of classic data structures such as stacks, queues, linked lists, binary trees, and graphs using Python.
+        </p>
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Design and modeling of relational databases with Oracle, from conceptual, logical, and physical models to real-world implementation in integrated systems.
+        </p>
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Development of Internet of Things (IoT) projects using Arduino and C++, focusing on automation and sensor/actuator integration.
+        </p>
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - In-depth study of computer networks, including OSI and TCP/IP models, UDP protocol, and simulation/analysis with tools such as Cisco Packet Tracer.
+        </p>
+
+        <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+          - Participation in multidisciplinary projects focused on practical learning, cross-functional integration, and solving real-world problems.
+        </p>
+
+        <LinkPreview className="font-bold flex mb-4 gap-1 items-center" url="https://github.com/FI4P/">
+          Visit the repository
+          <IconExternalLink size={18} />
+        </LinkPreview>
       </div>
     ),
   },
@@ -152,18 +162,30 @@ export const educationEN = [
     content: (
       <div className="flex flex-col gap-5">
         <div className="w-full flex gap-5 items-center">
-          <IconCalendarWeek className="text-black dark:text-zinc-300 "/>
+          <IconCalendarWeek className="text-black dark:text-zinc-300 " />
           <h4 className="text-base md:text-2xl text-center">2020 - 2022</h4>
+        </div>
+
+        <div className="w-full flex gap-3 items-center mt-2">
+          <IconSchool className="text-black dark:text-zinc-500 " />
+          <h5 className="text-sm md:text-base text-black dark:text-zinc-500">SENAI School of Informatics</h5>
         </div>
 
         <div className="flex flex-col g-1">
           <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            SENAI - Ricardo Lerner
+            - User interface implementation with <strong>React.js, using Tailwind CSS and Bootstrap.</strong>
+          </p>
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+            - API development using Node.js and Express.js, Java and Spring Boot.
+          </p>
+          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
+            - Integration with Oracle and MySQL databases.
           </p>
 
-          <p className="mb-8 font-normal text-neutral-800 md:text-sm dark:text-zinc-300 leading-snug tracking-wide text-sm sm:text-base md:text-1xl">
-            HTML5, CSS3, JavaScript, Node.js, Java, Vraptor, Spring Boot, Git, MySQL, Oracle, Selenium, Networking.
-          </p>
+          <LinkPreview className="font-bold flex mb-4 gap-1 items-center" url="https://github.com/Senai-FullStack">
+            Visit the repository
+            <IconExternalLink size={18} />
+          </LinkPreview>
         </div>
       </div>
     ),
