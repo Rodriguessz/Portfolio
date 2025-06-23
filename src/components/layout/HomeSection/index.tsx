@@ -101,7 +101,7 @@ export const HomeSection = ({ className = "" }: HomeSectionProps) => {
                         </Button>
                     </a>
 
-                    <a href="/cv_2025.pdf" download >
+                    <a href="/CV_2025.pdf" download >
                         <Button className="dark:border-white border-zinc-300 border text-sm font-bold">
                             <IconDownload size={22} />
                             {t("cvButton")}
